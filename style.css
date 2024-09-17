@@ -22,7 +22,7 @@ body {
     background-image: linear-gradient(to right, gold,red,orange,red,gold,red,orange,red,gold);
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin:0;
     padding:0;
@@ -32,7 +32,7 @@ ul {
 
 }
 
-li {
+nav ul li {
     float:left;
     background-color: yellow;
     border-right: solid 5px green;
