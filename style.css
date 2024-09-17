@@ -1,0 +1,48 @@
+
+header {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: red;
+    color:white;
+    border-style:groove;
+    border-width: 20px;
+    font-family: "Copperplate", "Garamond", sans-serif;
+    border-color:gold;
+}
+header p  {
+    font-size: 15px;
+    font-weight: 10;
+}
+
+body {
+    background-image: linear-gradient(to right, gold,red,gold,red,gold);
+
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+}
+li {
+    float:left;
+    padding:20px;
+    background-color: yellow;
+    border-right: solid 5px green;
+    box-shadow: 0 2px 30px red inset;
+}
+
+li:last-child {
+    border-right: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    text-align: center;
+    width: 400px;
+}
