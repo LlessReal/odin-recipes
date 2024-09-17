@@ -5,6 +5,8 @@ header {
     padding: 10px;
     font-weight: bold;
     background-color: red;
+    text-shadow: 0 0 3px yellow, 0 0 3px gold;
+    box-shadow: 0 0 25px black inset;
     color:white;
     border-style:groove;
     border-width: 20px;
@@ -17,19 +19,21 @@ header p  {
 }
 
 body {
-    background-image: linear-gradient(to right, gold,red,gold,red,gold);
-
+    background-image: linear-gradient(to right, gold,red,orange,red,gold,red,orange,red,gold);
 }
 
 ul {
     list-style-type: none;
     margin:0;
     padding:0;
+    overflow: hidden;
+    background-color:yellow;
+    box-shadow: 0 2px 30px red inset;
 
 }
+
 li {
     float:left;
-    padding:20px;
     background-color: yellow;
     border-right: solid 5px green;
     box-shadow: 0 2px 30px red inset;
@@ -38,8 +42,12 @@ li {
 li:last-child {
     border-right: none;
 }
-a {
+li a {
+    display:block;
     text-decoration: none;
+    text-align: center;
+    color:rgb(28, 83, 31);
+    padding: 20px;
 }
 
 img {
