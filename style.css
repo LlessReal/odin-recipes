@@ -27,8 +27,8 @@ header p { /*Paragraphs in all headers will be much smaller*/
     font-weight: 10;
 }
 
-body {
-    background-image: linear-gradient(to right, gold,red,orange,red,gold,red,orange,red,gold);
+body { /*Unique background for all pages*/
+background-image: linear-gradient(to right, gold,red,orange,red,gold,red,orange,red,gold);
 }
 
 nav {
@@ -40,16 +40,14 @@ nav ul {
     margin:0;
     padding:0;
     overflow: hidden;
-    background-color:yellow;
     background-image: linear-gradient(to right, orange, yellow,red);
     display: flex;
 }
 nav ul li {
-    float:left;
     border-top: solid 5px black;
     border-right: solid 5px green;
     transition: 0.3s;
-    flex:1;
+    flex: 1; 
     border-bottom: ridge 5px darkgreen;
 }
 nav ul li:last-child {border-right: none;}
