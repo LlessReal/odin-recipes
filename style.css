@@ -14,15 +14,15 @@ header {
     border-color:gold;
     transition: 0.3s;
 }
-header.header2 {
+header.header2 { /*The headers in the other pages will have this, so the titles will be bigger*/
     padding: 40px;
     font-size: 40px;
 }
-header:hover {
+header:hover { /*When you hover over the header, it will shine and make the stuff bigger*/
     box-shadow: 0 0 100px yellow inset;
     font-size: 50px;
 }
-header p  {
+header p { /*Paragraphs in all headers will be much smaller*/
     font-size: 15px;
     font-weight: 10;
 }
@@ -41,7 +41,9 @@ nav ul {
     padding:0;
     overflow: hidden;
     background-color:yellow;
-    background-image: linear-gradient(to right, orange, yellow,red)
+    background-image: linear-gradient(to right, orange, yellow,red);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav ul li {
@@ -49,6 +51,7 @@ nav ul li {
     border-top: solid 5px black;
     border-right: solid 5px green;
     transition: 0.3s;
+    width:100%;
 }
 
 nav ul li:hover {
