@@ -1,4 +1,4 @@
-
+header.header2,
 header {
     text-align: center;
     font-size: 30px;
@@ -12,6 +12,15 @@ header {
     border-width: 20px;
     font-family: "Copperplate", "Garamond", sans-serif;
     border-color:gold;
+    transition: 0.3s;
+}
+header.header2 {
+    padding: 40px;
+    font-size: 40px;
+}
+header:hover {
+    box-shadow: 0 0 100px yellow inset;
+    font-size: 50px;
 }
 header p  {
     font-size: 15px;
@@ -22,32 +31,42 @@ body {
     background-image: linear-gradient(to right, gold,red,orange,red,gold,red,orange,red,gold);
 }
 
+nav {
+    position: sticky;
+    top: 0;
+}
 nav ul {
     list-style-type: none;
     margin:0;
     padding:0;
     overflow: hidden;
     background-color:yellow;
-    box-shadow: 0 2px 30px red inset;
-
+    background-image: linear-gradient(to right, orange, yellow,red)
 }
 
 nav ul li {
     float:left;
-    background-color: yellow;
+    border-top: solid 5px black;
     border-right: solid 5px green;
-    box-shadow: 0 2px 30px red inset;
+    transition: 0.3s;
 }
 
+nav ul li:hover {
+    box-shadow: 0 0 20px red inset;
+}
 li:last-child {
     border-right: none;
 }
+
+
 li a {
     display:block;
     text-decoration: none;
+    font-family: "Impact";
+    font-size: 30px;
     text-align: center;
     color:rgb(28, 83, 31);
-    padding: 20px;
+    padding: 10px;
 }
 
 img {
