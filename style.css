@@ -47,7 +47,7 @@ nav ul li {
     border-top: solid 5px black;
     border-right: solid 5px green;
     transition: 0.3s;
-    flex: 1; 
+    flex: 1; /*Makes all items the growth of 1*/
     border-bottom: ridge 5px darkgreen;
 }
 nav ul li:last-child {border-right: none;}
