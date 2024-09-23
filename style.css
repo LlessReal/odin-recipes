@@ -108,6 +108,7 @@ h3 {
     text-shadow: 0 0 5px purple;
     font-size: 40px;
     font-family: impact;
+    font: style weight size family; /*Shorthand for all of the properties*/
     display: inline;
     background-color: red;
     padding: 10px;
